@@ -1,0 +1,89 @@
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background-color: green; */
+  justify-content: center;
+}
+.main {
+  width: 70%;
+  height: 80%;
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+  border-radius: 35px;
+  padding: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.main_container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+.header_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  width: 50%;
+  height: 10%;
+}
+
+.header > p {
+  font-size: 20px;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.textfield {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.button_container {
+  /* background-color: yellow; */
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  background-color: navy;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.button:hover {
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  /* transform: translateX(-2px); */
+}
+
+.one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+  height: 7%;
+  /* margin-top: -20px; */
+  margin-bottom: 20px;
+}
