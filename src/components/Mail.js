@@ -44,8 +44,12 @@ export default function Mail() {
               message is spam or not.
             </p>
           </div>
+          <div
+            style={{ width: "100%", textAlign: "left", backgroundColor: "red" }}
+          >
+            <label htmlFor="emailInput">Please paste your message here:</label>
+          </div>
 
-          <label htmlFor="emailInput">Please paste your message here:</label>
           <div className={styles.textfield}>
             <TextField
               id="emailInput"
