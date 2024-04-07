@@ -45,7 +45,7 @@ export default function Mail() {
             </p>
           </div>
           <div
-            style={{ width: "100%", textAlign: "left", backgroundColor: "red" }}
+            style={{ width: "80%", textAlign: "left" }}
           >
             <label htmlFor="emailInput">Please paste your message here:</label>
           </div>
